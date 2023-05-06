@@ -4,7 +4,9 @@ import { HeaderWrapper } from './header.styled';
 
 const Header = () => <HeaderWrapper>Header Component</HeaderWrapper>;
 
-Header.propTypes = {};
+Header.propTypes = {
+    bla: PropTypes.string,
+};
 
 Header.defaultProps = {};
 
