@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Card(Props) {
+function Card(props) {
     return (
         <div className="Card">
-            <p>Make: {Props.make}</p>
-            <p>Model: {Props.model}</p>
-            <p>Year: {Props.year}</p>
-            <p>Origin: {Props.origin}</p>
-            <p>Color: {Props.color}</p>
-            <p>Price: $ {Props.price}</p>
+            <p>Make: {props.make}</p>
+            <p>Model: {props.model}</p>
+            <p>Year: {props.year}</p>
+            <p>Origin: {props.origin}</p>
+            <p>Color: {props.color}</p>
+            <p>Price: $ {props.price}</p>
         </div>
     );
 }
